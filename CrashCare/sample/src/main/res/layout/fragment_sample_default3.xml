@@ -1,0 +1,31 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/car_accident3"/>
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/indicator3"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btn3"
+        android:layout_alignEnd="@+id/btn3" />
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:src="@android:drawable/ic_menu_camera"
+        android:layout_alignBottom="@+id/indicator3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
