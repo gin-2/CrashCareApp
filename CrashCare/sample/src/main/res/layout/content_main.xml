@@ -76,7 +76,8 @@
                 android:layout_margin="0dp"
                 android:padding="0dp"
                 android:background="@color/button_material_light"
-                android:onClick="onImgBtnClicked" />
+                android:onClick="onImgBtnClicked"
+                android:src="@android:drawable/ic_menu_directions" />
         </TableRow>
 
     </TableLayout>
